@@ -1,3 +1,3 @@
 <?php
-    echo "hello! this is test 12345";
+    echo "hello! this is test";
 ?>
