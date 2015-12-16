@@ -1,7 +1,13 @@
 <?php
 
     echo "this is test";
-	echo "1";
 
+    function Func_1($a){
 
-    echo "2";
+        return $a;
+    }
+
+    function Func_2($b){
+
+        return $b;
+    }
