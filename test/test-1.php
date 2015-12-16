@@ -3,7 +3,7 @@
     echo "this is test";
 
     function Func_1($a){
-
+        $a = 3;
         return $a;
     }
 
