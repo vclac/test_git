@@ -8,6 +8,6 @@
     }
 
     function Func_2($b){
-
+        $b = 4;
         return $b;
     }
