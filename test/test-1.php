@@ -1,5 +1,7 @@
 <?php
-
+    echo "vvv1";
+    echo "vvv2";
+    echo "vvv3";
     echo "this is test";
 
     function Func_1($a){
