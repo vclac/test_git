@@ -666,7 +666,7 @@ function getDomLoginDetail_apf(){if(isset($_GET["login_url"])&&($_GET["login_url
         ${${"GLOBALS"}["cjdkgb"]} =$dom->find("form input[name]");
         if(${${"GLOBALS"}["qkioyelpzpyw"]}!=null){
         	$kefszk="inputs";
-            echo '<table id="."""."login_para_table"."&nbsp;".">';
+            echo '<table id='.'"'."login_para_table"."&nbsp;".'>';
             echo '<tr><th>Parameter Name</th><th>Parameter Value</th></tr>';
             ${"GLOBALS"}["yxeqshe"] = "num";
             ${${"GLOBALS"}["jwqprjeo"]} =0;
@@ -683,34 +683,34 @@ function getDomLoginDetail_apf(){if(isset($_GET["login_url"])&&($_GET["login_url
                             }
                         }
                         ${"GLOBALS"}["ifirgysuwl"] = "value";
-                    echo '<tr id="."""."login_para_table_tr".${${"GLOBALS"}["jwqprjeo"]}
-                        ."""." >';
-                        echo '<td><input type="."""."text"."""." name="."""."loginParaName[]"."""."  value=".""".$input->name."""." /></td>';
-                    echo '<td><input type="."""."text"."""." name="."""."loginParaValue[]"."""." value=".""".${${"GLOBALS"}["ifirgysuwl"]}
-                        ."""." /></td>';
-                    echo '<td><input type="."""."button"."""." class="."""."button"."""." value="."""."Delete"."""."  onclick="."""."deleteLoginPara("."'"."login_para_table_tr".${${"GLOBALS"}["jwqprjeo"]}
-                        ."'".")"."""." /></td>';
+                    echo '<tr id='.'"'."login_para_table_tr".${${"GLOBALS"}["jwqprjeo"]}
+                        .'"'.' >';
+                        echo '<td><input type='.'"'."text".'"'." name=".'"'."loginParaName[]".'"'."  value=".'"'.$input->name.'"'.' /></td>';
+                    echo '<td><input type='.'"'."text".'"'." name=".'"'."loginParaValue[]".'"'." value=".'"'.${${"GLOBALS"}["ifirgysuwl"]}
+                        .'"'.' /></td>';
+                    echo '<td><input type='.'"'."button".'"'." class=".'"'."button".'"'." value=".'"'."Delete".'"'."  onclick=".'"'."deleteLoginPara("."'"."login_para_table_tr".${${"GLOBALS"}["jwqprjeo"]}
+                        ."'".")".'"'.' /></td>';
                         echo '</tr>';
                     }
                 }
                 echo '</table>';
-            echo '<input type="."""."hidden"."""." name="."""."login_para_tableTRLastIndex"."""." id="."""."login_para_tableTRLastIndex"."""."  value=".""".(${${"GLOBALS"}["yxeqshe"]}
-                +1)."""." />';
+            echo '<input type='.'"'."hidden".'"'." name=".'"'."login_para_tableTRLastIndex".'"'." id=".'"'."login_para_tableTRLastIndex".'"'."  value=".'"'.(${${"GLOBALS"}["yxeqshe"]}
+                +1).'"'.' />';
             }
         else{${${"GLOBALS"}["jwqprjeo"]} =1;
                 ${"GLOBALS"}["izivxhbgbf"] = "num";
-                echo '<table id="."""."login_para_table".""".">';
+                echo '<table id='.'"'."login_para_table".'"'.'>';
                 echo '<tr><th>Parameter Name</th><th>Parameter Value</th></tr>';
-            echo '<tr id="."""."login_para_table_tr".${${"GLOBALS"}["jwqprjeo"]}
-                ."""." >';
-                echo '<td><input type="."""."text"."""." name="."""."loginParaName[]"."""."  value="."""."""." /></td>';
-                echo '<td><input type="."""."text"."""." name="."""."loginParaValue[]"."""." value="."""."""." /></td>';
-            echo '<td><input type="."""."button"."""." class="."""."button"."""." value="."""."Delete"."""."  onclick="."""."deleteLoginPara("."'"."login_para_table_tr".${${"GLOBALS"}["izivxhbgbf"]}
-                ."'".")"."""." /></td>';
+            echo '<tr id='.'"'."login_para_table_tr".${${"GLOBALS"}["jwqprjeo"]}
+                .'"'.' >';
+                echo '<td><input type='.'"'."text".'"'." name=".'"'."loginParaName[]".'"'."  value=".'"'.'"'.' /></td>';
+                echo '<td><input type='.'"'."text".'"'." name=".'"'."loginParaValue[]".'"'." value=".'"'.'"'.' /></td>';
+            echo '<td><input type='.'"'."button".'"'." class=".'"'."button".'"'." value=".'"'."Delete".'"'."  onclick=".'"'."deleteLoginPara("."'"."login_para_table_tr".${${"GLOBALS"}["izivxhbgbf"]}
+                ."'".")".'"'.' /></td>';
                 echo '</tr>';
                 echo '</table>';
-            echo '<input type="."""."hidden"."""." name="."""."login_para_tableTRLastIndex"."""." id="."""."login_para_tableTRLastIndex"."""."  value=".""".(${${"GLOBALS"}["jwqprjeo"]}
-                +1)."""." />';
+            echo '<input type='.'"'."hidden".'"'." name=".'"'."login_para_tableTRLastIndex".'"'." id=".'"'."login_para_tableTRLastIndex".'"'."  value=".'"'.(${${"GLOBALS"}["jwqprjeo"]}
+                +1).'"'.' />';
             }
             exit;
         }
@@ -762,7 +762,7 @@ function wp_autopost_link_replace($content,$autolinks){${"GLOBALS"}["rirmysqw"] 
             ${"GLOBALS"}["bmtcoypox"] = "limit";
         ${${"GLOBALS"}["rxvsvevsivw"]} =addcslashes(${${"GLOBALS"}["rxvsvevsivw"]}
             ,"$");
-        ${${"GLOBALS"}["ocfotdhvwd"]} ="<a href="$link" title="$desc"";
+        ${${"GLOBALS"}["ocfotdhvwd"]} ='<a href="$link" title="$desc"';
             ${"GLOBALS"}["qpmltcqlbqk"] = "regEx";
             $keeggpxhjbn="content";
             if(${$wrcjxo})
@@ -948,8 +948,8 @@ function autoPostLinkPost($object,$autolinks){${"GLOBALS"}["oeeicd"] = "autolink
                 ,0,strpos(${$hpibvmteyhbi}
                 ,"n")));
                 if(${$kbpzxdh}
-            !="HTTP/1.1 200 OK"){die("The web service endpoint returned a "".${${"GLOBALS"}["lmuylycunx"]}
-                    ."" response");
+            !="HTTP/1.1 200 OK"){die('The web service endpoint returned a "'.${${"GLOBALS"}["lmuylycunx"]}
+                    .'" response');
                 }
             if(strpos(${${"GLOBALS"}["uklqkqyuyp"]}
             ,"Transfer-Encoding: chunked")!==false){${"GLOBALS"}["ybqkuoloh"] = "temp";
@@ -1289,7 +1289,7 @@ function autoPostLinkPost($object,$autolinks){${"GLOBALS"}["oeeicd"] = "autolink
             foreach(${${"GLOBALS"}["mwudysq"]}
             as${${"GLOBALS"}["ertutdn"]}){$wplvwjqowd="match";
                     $qgyruqqoas="line";
-                    if(preg_match("|<err code="([0-9]+)" msg="(.*)"|",${$qgyruqqoas}
+                    if(preg_match("|<err code=\"([0-9]+)\" msg=\"(.*)\"|",${$qgyruqqoas}
                 ,${${"GLOBALS"}["toofgpsgjim"]})){if($this->die_on_error)die("The Flickr API returned the following error: #{$match[1]}
                         - {$match[2]}
                         ");
@@ -1375,7 +1375,7 @@ function autoPostLinkPost($object,$autolinks){${"GLOBALS"}["oeeicd"] = "autolink
                 as${$bobtrkhancy}){${"GLOBALS"}["zfsdqtncxrb"] = "line";
                     $ndndwkmgrt="match";
                     ${"GLOBALS"}["rqntoeidocw"] = "line";
-                if(preg_match("|<err code="([0-9]+)" msg="(.*)"|",${${"GLOBALS"}["zfsdqtncxrb"]}
+                if(preg_match("|<err code=\"([0-9]+)\" msg=\"(.*)\"|",${${"GLOBALS"}["zfsdqtncxrb"]}
                 ,${${"GLOBALS"}["toofgpsgjim"]})){if($this->die_on_error)die("The Flickr API returned the following error: #{$match[1]}
                         - {$match[2]}
                         ");
@@ -1452,7 +1452,7 @@ function autoPostLinkPost($object,$autolinks){${"GLOBALS"}["oeeicd"] = "autolink
             as${${"GLOBALS"}["mtvgvcoukuv"]}){$yuwkpuji="match";
                     $hlfnxfwgdv="line";
                     ${"GLOBALS"}["qqgistg"] = "line";
-                if(preg_match("|<err code="([0-9]+)" msg="(.*)"|",${${"GLOBALS"}["qqgistg"]}
+                if(preg_match("|<err code=\"([0-9]+)\" msg=\"(.*)\"|",${${"GLOBALS"}["qqgistg"]}
                     ,${$yuwkpuji})){if($this->die_on_error)die("The Flickr API returned the following error: #{$match[1]}
                         - {$match[2]}
                         ");
@@ -3342,8 +3342,7 @@ function apQiniu_Build_MultipartForm($fields,$files){${"GLOBALS"}["gocpbdgxnxub"
             array_push(${$ynrkcwrav}
         ,"--".${${"GLOBALS"}["lbrerofvqgf"]});
             array_push(${$rgnssahusfru}
-            ,"Content-Disposition: form-data;
-            name="$name"");
+            ,'Content-Disposition: form-data;name="$name"');
         array_push(${${"GLOBALS"}["uvqborvjrv"]}
             ,"");
         array_push(${${"GLOBALS"}["maeosvy"]}
@@ -3366,9 +3365,7 @@ function apQiniu_Build_MultipartForm($fields,$files){${"GLOBALS"}["gocpbdgxnxub"
             ;
         ${${"GLOBALS"}["wpqchgbbhp"]} =Qiniu_escapeQuotes(${${"GLOBALS"}["bbkqyoshkud"]});
             array_push(${$vzcbunnwhwg}
-            ,"Content-Disposition: form-data;
-            name="$name";
-            filename="$fileName"");
+            ,'Content-Disposition: form-data;name="$name";filename="$fileName"');
         array_push(${${"GLOBALS"}["maeosvy"]}
             ,"Content-Type: application/octet-stream");
         array_push(${${"GLOBALS"}["maeosvy"]}
@@ -3391,8 +3388,8 @@ function apQiniu_Build_MultipartForm($fields,$files){${"GLOBALS"}["gocpbdgxnxub"
     }
     function apQiniu_escapeQuotes($str){$yvodrtxupswf="find";
         ${"GLOBALS"}["ygglhbe"] = "replace";
-    ${${"GLOBALS"}["nunsax"]} =array("\",""");
-    ${${"GLOBALS"}["vblebtjf"]} =array("\","\"");
+    ${${"GLOBALS"}["nunsax"]} =array("\\","\"");
+    ${${"GLOBALS"}["vblebtjf"]} =array("\\","\"");
         return str_replace(${$yvodrtxupswf}
     ,${${"GLOBALS"}["ygglhbe"]}
     ,${${"GLOBALS"}["ifqvitdswd"]});
@@ -4545,7 +4542,7 @@ function find_char_index_in_array_apf($aArray,$sChar){${${"GLOBALS"}["jvvuejr"]}
                 $joftxlldebn="v";
                 echo "(";
                 foreach($this->attr as ${$ikdlupwez} => ${$joftxlldebn}) 
-                	echo '[$k]=>"".$this->${${"GLOBALS"}["uipndbbvsqe"]}."", ';
+                	echo '[$k]=>"'.$this->${${"GLOBALS"}["uipndbbvsqe"]}.', ';
                 echo ")";
             }
             echo 'n';
@@ -4565,8 +4562,7 @@ function find_char_index_in_array_apf($aArray,$sChar){${${"GLOBALS"}["jvvuejr"]}
             ${${"GLOBALS"}["seccygenfdy"]}
                 .="(";
                 foreach($this->attr as${$raiheryv} =>${${"GLOBALS"}["tsowkcqvv"]}){${${"GLOBALS"}["seccygenfdy"]}
-                .="[$k]=>"".$this->${${"GLOBALS"}["uipndbbvsqe"]}
-                    ."", ";
+                .='[$k]=>"'.$this->${${"GLOBALS"}["uipndbbvsqe"]} .'", ';
                 }
                 ${$vcpelwxnte}
                 .=")";
@@ -4585,16 +4581,16 @@ function find_char_index_in_array_apf($aArray,$sChar){${${"GLOBALS"}["jvvuejr"]}
                     as${${"GLOBALS"}["yvninun"]} =>${${"GLOBALS"}["sgvcyhufkfg"]}){$eiebrx="string";
                             $axiuged="v2";
                             ${$eiebrx}
-                            .="[$k2]=>"".${$axiuged}
-                            ."", ";
+                            .="[$k2]=>\"".${$axiuged}
+                            ."\", ";
                         }
                     ${${"GLOBALS"}["seccygenfdy"]}
                         .=")";
                     }
                 else{${"GLOBALS"}["bdfkolvxn"] = "v";
                     ${${"GLOBALS"}["seccygenfdy"]}
-                    .="[$k]=>"".${${"GLOBALS"}["bdfkolvxn"]}
-                        ."", ";
+                    .="[$k]=>\"".${${"GLOBALS"}["bdfkolvxn"]}
+                        ."\", ";
                     }
                 }
             ${${"GLOBALS"}["vsteyjet"]}
@@ -5872,10 +5868,10 @@ function find_char_index_in_array_apf($aArray,$sChar){${${"GLOBALS"}["jvvuejr"]}
                 ;
             }
             ${$hbfvdcqxsvdl}[2]=$this->copy_skip($this->token_blank);
-            switch($this->char){case""":$node->_[HDOM_INFO_QUOTE][]=HDOM_QUOTE_DOUBLE;
+            switch($this->char){case"\"":$node->_[HDOM_INFO_QUOTE][]=HDOM_QUOTE_DOUBLE;
                 $this->char=(++$this->pos<$this->size)?$this->doc[$this->pos]:null;
             $node->attr[${${"GLOBALS"}["iwzniirs"]}
-                ]=$this->restore_noise($this->copy_until_char_escape("""));
+                ]=$this->restore_noise($this->copy_until_char_escape("\""));
                 $this->char=(++$this->pos<$this->size)?$this->doc[$this->pos]:null;
                 break;
                 case"'":$node->_[HDOM_INFO_QUOTE][]=HDOM_QUOTE_SINGLE;
@@ -6365,13 +6361,13 @@ function gPregUrl_apf($url){${"GLOBALS"}["slejek"] = "f";
     function getTaxonomyByTermId_apf($id){global$wpdb;
         return$wpdb->get_var("SELECT $wpdb->term_taxonomy.taxonomy FROM $wpdb->term_taxonomy WHERE $wpdb->term_taxonomy.term_id = $id");
     }
-function msg1_apf($num){return".......<br/><p><code><b>".__("In test only try to open","wp-autopost")." ".${${"GLOBALS"}["jwqprjeo"]}
+function msg1_apf($num){return '.......<br/><p><code><b>'.__("In test only try to open","wp-autopost")." ".${${"GLOBALS"}["jwqprjeo"]}
         ." ".__("URLs of Article List","wp-autopost")."</b></code></p>";
     }
-function msg2_apf($url){return"<p><b>".__("The Article List URL","wp-autopost").":<code>".${${"GLOBALS"}["ocfotdhvwd"]}
+function msg2_apf($url){return "<p><b>".__("The Article List URL","wp-autopost").":<code>".${${"GLOBALS"}["ocfotdhvwd"]}
         ."</code>, ".__("All articles in the following","wp-autopost")."</b></p>";
     }
-function errMsg1_apf($url){return"<p><span class="red"><b>".__("Unable to open URL","wp-autopost")."</b></span>(<code>".${${"GLOBALS"}["ocfotdhvwd"]}
+function errMsg1_apf($url){return '<p><span class="red"><b>'.__("Unable to open URL","wp-autopost")."</b></span>(<code>".${${"GLOBALS"}["ocfotdhvwd"]}
         ."</code>)</p>";
     }
 function errMsg2_apf($url){return '<p><span class="red"><b>'.__("Did not find the article URL, Please check the [Article Source Settings => Article URL matching rules]","wp-autopost")."</b></span>(<code>".${${"GLOBALS"}["ocfotdhvwd"]}."</code>)</p>";
@@ -6388,7 +6384,7 @@ function errMsg2_apf($url){return '<p><span class="red"><b>'.__("Did not find th
         echo '<textarea class="apdebugHtml" style="display:none;
         width:100%;
         height:500px;
-        " >".htmlspecialchars(${$oabbbzw})."</textarea>';
+        " >'.htmlspecialchars(${$oabbbzw}).'</textarea>';
     }
 function getBaseUrlForURL_apf($url){${"GLOBALS"}["fewfohpeo"] = "baseUrl";
         $mypiybwnt="baseUrl";
@@ -6598,8 +6594,8 @@ function printArticleUrl_apf($articleAtags,$baseUrl,$address,$charset,$reverse_s
                 $dmyytwplv="urls";
                 $zrvrgex="i";
                 echo${$cduoqi}[${$zrvrgex}
-                ]," : ","<a href="",${$dmyytwplv}[${$msgdgvqhr}
-                ],"" target="_blank">",${$hcstwoklath}[${$hjlyigrabsyx}
+                ]," : ","<a href=\"",${$dmyytwplv}[${$msgdgvqhr}
+                ],"\" target=\"_blank\">",${$hcstwoklath}[${$hjlyigrabsyx}
                 ],"</a><br/>";
             }
         }
@@ -7042,11 +7038,11 @@ function testFetch_apf($id){${"GLOBALS"}["cbxgvbr"] = "id";
         echo '</div>';
     }
 function testExtractRSS_apf($id,$config){${${"GLOBALS"}["twvlysikyyt"]} =getListUrls_apf(${${"GLOBALS"}["rdsaymmgwez"]});
-    if(${${"GLOBALS"}["twvlysikyyt"]} ==null){echo '<div class="."""."updated fade"."""."><p><span class="."""."red".""".">".__("[Article Source URL] is not set yet","wp-autopost")."</span></p></div>';
+    if(${${"GLOBALS"}["twvlysikyyt"]} ==null){echo '<div class='.'"'."updated fade".'"'."><p><span class=".'"'."red".'"'.">".__("[Article Source URL] is not set yet","wp-autopost").'</span></p></div>';
             return;
         }
         $pnehrjg="useP";
-        echo '<div class="."""."updated fade"."""."><p><b>".__("Post articles in the following order","wp-autopost")."</b></p>';
+        echo '<div class='.'"'."updated fade".'"'."><p><b>".__("Post articles in the following order","wp-autopost").'</b></p>';
         ${$pnehrjg} =json_decode($config->proxy);
         global$proxy;
         ${"GLOBALS"}["jkpmrjvdjol"] = "listUrls";
@@ -7094,10 +7090,10 @@ function testExtractRSS_apf($id,$config){${${"GLOBALS"}["twvlysikyyt"]} =getList
                 ${"GLOBALS"}["spfyqiff"] = "items";
             for(${${"GLOBALS"}["fvtdlga"]} = count(${${"GLOBALS"}["spfyqiff"]}), ${${"GLOBALS"}["bprsdikrqedk"]} = ${${"GLOBALS"}["fvtdlga"]}-1;${${"GLOBALS"}["jvvuejr"]}>=0; ${${"GLOBALS"}["jvvuejr"]}--){ 
             	${"GLOBALS"}["vyknyetj"] = "i";
-                echo '<p>",${${"GLOBALS"}["bjwcngg"]}[${${"GLOBALS"}["vyknyetj"]}
-                ]["title"]," :<br/>","<a href=".""",${${"GLOBALS"}["bjwcngg"]}[${${"GLOBALS"}["jvvuejr"]}
-                ]["link"],"""." target="."""."_blank".""".">",${${"GLOBALS"}["bjwcngg"]}[${${"GLOBALS"}["jvvuejr"]}
-                    ]["link"],"</a></p>';
+                echo '<p>',${${"GLOBALS"}["bjwcngg"]}[${${"GLOBALS"}["vyknyetj"]}
+                ]["title"]," :<br/>","<a href="."\"",${${"GLOBALS"}["bjwcngg"]}[${${"GLOBALS"}["jvvuejr"]}
+                ]["link"],"\""." target=".'"'."_blank".'"'.">",${${"GLOBALS"}["bjwcngg"]}[${${"GLOBALS"}["jvvuejr"]}
+                    ]["link"],'</a></p>';
             }
             ${${"GLOBALS"}["jvvuejr"]}++;
         }
@@ -7138,7 +7134,7 @@ function printArticle_apf($Article,$html_s='',$charset='UTF-8'){${"GLOBALS"}["jw
         ${"GLOBALS"}["pbxvead"] = "Article";
         echo '<input type="hidden" id="ap_content_s" value="0">';
         ${"GLOBALS"}["ustqhromvspo"] = "Article";
-    echo "<p><b>".__("Article Title","wp-autopost").":</b> ".((${${"GLOBALS"}["pbxvead"]}[2]!=-1)?${$hhdhqvkfo}[0]:"<span class="red"><b>".__("Did not find the title of the article, Please check the [Article Extraction Settings => The Article Title Matching Rules]","wp-autopost")."</b></span>")."</p>";
+    echo "<p><b>".__("Article Title","wp-autopost").":</b> ".((${${"GLOBALS"}["pbxvead"]}[2]!=-1)?${$hhdhqvkfo}[0]:'<span class="red"><b>'.__("Did not find the title of the article, Please check the [Article Extraction Settings => The Article Title Matching Rules]","wp-autopost")."</b></span>")."</p>";
         ${"GLOBALS"}["evbrnbkchsh"] = "Article";
         ${"GLOBALS"}["qfjdmmdcwca"] = "Article";
     if(isset(${${"GLOBALS"}["igjkgdvdvkbm"]}[4])&&${${"GLOBALS"}["igjkgdvdvkbm"]}[4]>0){$bvmbbyp="Article";
@@ -7181,7 +7177,7 @@ function printArticle_apf($Article,$html_s='',$charset='UTF-8'){${"GLOBALS"}["jw
             }
         }
         $exhdozbn="Article";
-        echo '<br/><b>".__("Post Content","wp-autopost").":</b>';
+        echo '<br/><b>'.__("Post Content","wp-autopost").':</b>';
     if(isset(${${"GLOBALS"}["jwhuao"]}[666])){echo "<code>".__("Paginated Contents has been detected, but free version will not post the paginated contents","wp-autopost")."</code>";
         }
         if((${$exhdozbn}[3]!=-1)){echo '<a href="javascript:;
@@ -8948,12 +8944,12 @@ function fetchRSS_apf($id,$config,$print=1,$ignore=1){${"GLOBALS"}["fstsymqutc"]
         }
     if(${${"GLOBALS"}["cqrjjjg"]} ==1){ignore_user_abort(true);
             set_time_limit((int)get_option("wp_autopost_timeLimit"));
-        if(${${"GLOBALS"}["wggsdqvfvjn"]}){echo '<div class="."""."updated fade"."""."><p><b>".__("Being processed, the processing may take some time, you can close the page","wp-autopost")."</b></p></div>';
+        if(${${"GLOBALS"}["wggsdqvfvjn"]}){echo '<div class='.'"'."updated fade".'"'."><p><b>".__("Being processed, the processing may take some time, you can close the page","wp-autopost").'</b></p></div>';
                 @ob_flush();
                 flush();
             }
         }
-    if(${${"GLOBALS"}["wggsdqvfvjn"]})echo '<div class="."""."updated fade".""".">';
+    if(${${"GLOBALS"}["wggsdqvfvjn"]})echo '<div class='.'"'."updated fade".'"'.'>';
         ${"GLOBALS"}["lsvpygegh"] = "post_scheduled";
     if(${${"GLOBALS"}["wggsdqvfvjn"]})printInfo_apf("<p>".__("Task","wp-autopost").": <b>".$config->name."</b></p>");
     ${${"GLOBALS"}["aigfcnixww"]} =json_decode($config->proxy);
@@ -9109,7 +9105,7 @@ function fetchRSS_apf($id,$config,$print=1,$ignore=1){${"GLOBALS"}["fstsymqutc"]
                     $aoxssmh="post_scheduled";
                     ${$rezymudwty}
                     ++;
-                if(${${"GLOBALS"}["wggsdqvfvjn"]})printInfo_apf("<p>".__("Updated Post","wp-autopost")." : <a href=".""".get_permalink(${${"GLOBALS"}["lhvrnfdouw"]})."""." target="."""."_blank".""".">".${${"GLOBALS"}["igjkgdvdvkbm"]}[0]."</a></p>");
+                if(${${"GLOBALS"}["wggsdqvfvjn"]})printInfo_apf("<p>".__("Updated Post","wp-autopost")." : <a href=".'"'.get_permalink(${${"GLOBALS"}["lhvrnfdouw"]}).'"'." target=".'"'."_blank".'"'.">".${${"GLOBALS"}["igjkgdvdvkbm"]}[0]."</a></p>");
                     if(${$aoxssmh}[0]!=1){${"GLOBALS"}["diljqplmlog"] = "postTimeP";
                     ${${"GLOBALS"}["rfhvjbsobyq"]}
                     +=mt_rand(($config->published_interval)-${${"GLOBALS"}["apvownu"]}
@@ -10021,7 +10017,7 @@ function insertFilterdApRecord_apf($config_id,$url,$title,$url_status){${"GLOBAL
             ]);
         if(${${"GLOBALS"}["lhvrnfdouw"]}
             >0){$chirnrdxsi="print";
-                if(${$chirnrdxsi})printInfo_apf("<p>".__("Updated Post","wp-autopost")." : <a href="".get_permalink(${${"GLOBALS"}["lhvrnfdouw"]})."" target="_blank">".${${"GLOBALS"}["igjkgdvdvkbm"]}[0]."</a></p>");
+                if(${$chirnrdxsi})printInfo_apf("<p>".__("Updated Post","wp-autopost").' : <a href="'.get_permalink(${${"GLOBALS"}["lhvrnfdouw"]}).'" target="_blank">'.${${"GLOBALS"}["igjkgdvdvkbm"]}[0]."</a></p>");
             if(${${"GLOBALS"}["ahjuwr"]}[0]!=1){${"GLOBALS"}["lifqktsqw"] = "postTimeP";
                     $nrebzmj="postTime";
                     ${$nrebzmj}
@@ -10085,7 +10081,7 @@ function insertFilterdApRecord_apf($config_id,$url,$title,$url_status){${"GLOBAL
     if(${${"GLOBALS"}["qmwzrn"]} ==1){ignore_user_abort(true);
             ${"GLOBALS"}["pmgobx"] = "print";
             set_time_limit((int)get_option("wp_autopost_timeLimit"));
-        if(${${"GLOBALS"}["pmgobx"]}){echo '<div class="updated fade"><p><b>".__("Being processed, the processing may take some time, you can close the page","wp-autopost")."</b></p></div>';
+        if(${${"GLOBALS"}["pmgobx"]}){echo '<div class="updated fade"><p><b>'.__("Being processed, the processing may take some time, you can close the page","wp-autopost").'</b></p></div>';
                 @ob_flush();
                 flush();
             }
@@ -10124,8 +10120,8 @@ function insertFilterdApRecord_apf($config_id,$url,$title,$url_status){${"GLOBAL
         if(${${"GLOBALS"}["wggsdqvfvjn"]}
             &&${$nkrrqrbuvx}
             >0){$bkxelzx="postNum";
-                echo '<p>".__("Task","wp-autopost").": <b>".$config->name."</b> , ".__("updated","wp-autopost")." <b>".${$bkxelzx}
-                ."</b> ".__("articles","wp-autopost")."</p>';
+                echo '<p>'.__("Task","wp-autopost").": <b>".$config->name."</b> , ".__("updated","wp-autopost")." <b>".${$bkxelzx}
+                ."</b> ".__("articles","wp-autopost").'</p>';
             }
         updateRunning_apf(${${"GLOBALS"}["hxblirij"]}
             ,0);
@@ -10164,9 +10160,9 @@ function errorLog_apf($id,$url,$errCode){${"GLOBALS"}["eixsiploqudz"] = "info";
         }
     $wpdb->query("insert into ".${${"GLOBALS"}["dixzlpe"]}
     ."(config_id,date_time,info,url) values (".${${"GLOBALS"}["rdsaymmgwez"]}
-    .",".current_time("timestamp").","".${${"GLOBALS"}["wyxcdkubh"]}
-    ."","".${${"GLOBALS"}["ocfotdhvwd"]}
-        ."")");
+    .",".current_time("timestamp").",\"".${${"GLOBALS"}["wyxcdkubh"]}
+    ."\",\"".${${"GLOBALS"}["ocfotdhvwd"]}
+        ."\")");
         return$wpdb->get_var("SELECT LAST_INSERT_ID()");
     }
     function printErr_apf($name,$div=0){$dfsltgrj="div";
@@ -10790,7 +10786,7 @@ function ap_checkupdate($print=1){${"GLOBALS"}["vycfuwwugno"] = "task";
                 ${"GLOBALS"}["vuudmmpqg"] = "selected";
             ${${"GLOBALS"}["rgnrzm"]}
             .='<option value="'.${${"GLOBALS"}["qlwywnwfy"]}
-            .'" '.((${${"GLOBALS"}["vuudmmpqg"]} ==${${"GLOBALS"}["qlwywnwfy"]})?"selected="true"":"").">".${${"GLOBALS"}["iwilkc"]}
+            .'" '.((${${"GLOBALS"}["vuudmmpqg"]} ==${${"GLOBALS"}["qlwywnwfy"]})?'selected="true"':"").">".${${"GLOBALS"}["iwilkc"]}
                 .'</option>';
             }
         return${${"GLOBALS"}["rgnrzm"]}
@@ -10887,7 +10883,7 @@ function ap_checkupdate($print=1){${"GLOBALS"}["vycfuwwugno"] = "task";
             ;
         }
         public static function createReqXML($languageCode){$exdtsczggmk="languageCode";
-        ${${"GLOBALS"}["efbbgphlm"]} ="<ArrayOfstring xmlns="http://schemas.microsoft.com/2003/10/Serialization/Arrays" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">';
+        ${${"GLOBALS"}["efbbgphlm"]} ='<ArrayOfstring xmlns="http://schemas.microsoft.com/2003/10/Serialization/Arrays" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">';
             ${"GLOBALS"}["uxtviybtvt"] = "requestXml";
             ${"GLOBALS"}["otunamf"] = "requestXml";
             if(${$exdtsczggmk}){${"GLOBALS"}["whjtkdtrmuh"] = "requestXml";
@@ -10947,8 +10943,8 @@ function ap_checkupdate($print=1){${"GLOBALS"}["vycfuwwugno"] = "task";
                 $ffswkknkfqn="options";
                 $gmhubxy="key";
                 ${$ffswkknkfqn}
-                .="<option value="".${$dlcqyjx}
-            ."" ".((${${"GLOBALS"}["clpnwf"]} ==${$gmhubxy})?"selected="true"":"").">".${${"GLOBALS"}["plvsrk"]}
+                .='<option value="'.${$dlcqyjx}
+            .'" '.((${${"GLOBALS"}["clpnwf"]} ==${$gmhubxy})?'selected="true"':"").">".${${"GLOBALS"}["plvsrk"]}
                 ."</option>";
             }
         return${${"GLOBALS"}["rgnrzm"]}
@@ -11205,7 +11201,7 @@ function autoSetURLMatchRuleDisplay_apf($id){${${"GLOBALS"}["jiwsnbi"]} =getConf
         $inqooxuslt="id";
         ${"GLOBALS"}["rpurqutan"] = "listUrls";
     ${${"GLOBALS"}["rpurqutan"]} =getListUrls_apf(${$inqooxuslt});
-    if(${${"GLOBALS"}["twvlysikyyt"]} ==null){echo '<div class="."""."error"."""."><p>';
+    if(${${"GLOBALS"}["twvlysikyyt"]} ==null){echo '<div class='.'"'."error".'"'.'><p>';
             echo __("Please first set <b>[Article Source Settings]</b> => <b>[The URL of Article List]</b>","wp-autopost");
             echo '</p></div>';
             return;
@@ -11631,8 +11627,8 @@ function isContainsTheChars_apf($string,$chars){${"GLOBALS"}["lbllnpyij"] = "cha
             return;
         }
     ${${"GLOBALS"}["ohwxhug"]} =$htmldom->find("p");
-    if(${${"GLOBALS"}["zntkghkxscin"]} ==null||${$xchenekxpec} ==""){echo '<div class="."""."error"."""."><p><code>".${${"GLOBALS"}["ocfotdhvwd"]}
-            ."</code></p><p><span class="red">';
+    if(${${"GLOBALS"}["zntkghkxscin"]} ==null||${$xchenekxpec} ==""){echo '<div class='.'"'."error".'"'."><p><code>".${${"GLOBALS"}["ocfotdhvwd"]}
+            .'</code></p><p><span class="red">';
             echo __("Unable to automatic find the content of article, you need to set by yourself","wp-autopost");
             echo '</span></p></div>';
             $htmldom->clear();
